@@ -1,0 +1,119 @@
+.content {
+  background-color: #40332b;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Antonio", sans-serif;
+}
+
+img {
+  height: 90vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-55%, -50%);
+  cursor: pointer;
+  transition: height 0.8s, width 0.8s;
+}
+
+.img-container:hover img {
+  height: 95vh;
+}
+
+.img-container:hover .textbox1 {
+  right: 80px;
+}
+
+.img-container:hover .textbox2 {
+  top: 0;
+  left: -800px;
+}
+
+.img-container:hover .textbox3 {
+  bottom: -290px;
+  left: -900px;
+}
+
+.img-container:hover .textbox4 {
+  bottom: -300px;
+  left: -300px;
+}
+
+.textbox1 {
+  font-family: 'Special Elite', cursive;
+  color: rgb(228, 228, 228);
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  right: -350px;
+  text-align: right;
+  transform: translate(0, -50%);
+  width: 300px;
+  font-size: 2rem;
+  transition: right 1s;
+}
+
+.dramatic-effect {
+  color: rgb(213, 61, 61);
+}
+
+.textbox2 {
+  rotate: 125deg;
+  position: absolute;
+  z-index: 100;
+  top: -200px;
+  left: -1100px;
+  background-color: #281513;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  transition: top 1.5s, left 1.5s;
+}
+
+.textbox3 {
+  rotate: -40deg;
+  position: absolute;
+  z-index: 100;
+  bottom: -900px;
+  left: -1000px;
+  background-color: #291b15;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  transition: bottom 1.3s, left 1.3s;
+}
+
+.textbox4 {
+  rotate: 20deg;
+  position: absolute;
+  z-index: 100;
+  bottom: -600px;
+  left: -500px;
+  background-color: #24201d;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  transition: bottom 1s, left 1s;
+}
+
+.text1 {
+  font-weight: bolder;
+  color: #f7e154;
+  font-size: 4rem;
+  transition: color 1s;
+}
+
+.text1:hover {
+  color: #fa9a4b;
+  cursor: crosshair;
+}
+
+.text2 {
+  color: rgb(246, 241, 208);
+  font-size: 2rem;
+  transition: color 0.8s;
+}
+
+.text2:hover {
+  color: rgb(186, 255, 242);
+  cursor: crosshair;
+}
